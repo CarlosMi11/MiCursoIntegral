@@ -177,6 +177,14 @@ body.nav-active {
 /*-----------------------------------*\
   #ESTILO REUTILIZADO
 \*-----------------------------------*/
+.logo-nav{
+    width: 60px;
+}
+
+.logo-footer{
+    width: 70px;
+}
+
 .curso-text{
     font-size: 2rem;
 }
