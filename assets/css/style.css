@@ -179,10 +179,12 @@ body.nav-active {
 \*-----------------------------------*/
 .logo-nav{
     width: 20px;
+    height: 25px;
 }
 
 .logo-footer{
     width: 30px;
+    height: 35px;
 }
 
 .curso-text{
