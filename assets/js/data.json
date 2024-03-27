@@ -1,0 +1,19 @@
+{
+    "ExcelAvanzado": {
+      "nombre": "Excel Avanzado",
+      "link": "excelAvanzado",
+      "cursosPresenciales": [
+        {
+          "fecha": "Viernes 26 de Abril del 2024",
+          "ubicacion": "La Castellana, Caracas",
+          "tipo": "sabatino"
+        },
+        {
+          "fecha": "Sábado 20 de Abril del 2024",
+          "ubicacion": "La Castellana, Caracas",
+          "tipo": "semanal"
+        }
+      ]
+    }
+  }
+  
