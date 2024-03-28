@@ -1,8 +1,0 @@
-Mi-Curso-Integral
-    ├───.vscode
-    ├───assets
-    │   ├───css
-    │   ├───img
-    │   └───js
-    ├───buscador(reactFolder)
-    └───cursos
