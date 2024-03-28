@@ -20,7 +20,7 @@
     --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
     --azul: #0e2fa7;
     --light-gray: rgb(241, 239, 239);
-    --azul-brillante: #1900ff;
+    --azul-oscuro: #112056;
     --black-coral: hsla(220, 12%, 43%, 1);
 
     /**
@@ -630,6 +630,10 @@ body.nav-active {
     font-weight: 500;
     padding: 8px;
     border-radius: var(--radius-6);
+}
+
+.card-button:hover{
+    background: var(--azul-oscuro);
 }
 
 .service-card .btn-text {
