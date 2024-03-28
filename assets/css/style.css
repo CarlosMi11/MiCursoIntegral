@@ -20,7 +20,7 @@
     --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
     --azul: #0e2fa7;
     --light-gray: rgb(241, 239, 239);
-    --blue-crayola: hsla(219, 72%, 56%, 1);
+    --azul-brillante: #1900ff;
     --black-coral: hsla(220, 12%, 43%, 1);
 
     /**
@@ -524,6 +524,53 @@ body.nav-active {
 /*-----------------------------------*\
   #SERVICIO
 \*-----------------------------------*/
+
+.search-form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-input{
+    background-color: var(--white);
+    height: 60px;
+    border-radius: var(--radius-6);
+    box-shadow: var(--shadow-1);
+    padding: 15px;
+}
+
+.search-icon{
+    color: var(--white);
+    font-size: 3.5rem;
+    margin-top: -0.5rem;
+}
+
+.search-button{
+    border: solid 3px var(--white);
+    padding: 15px;
+    box-shadow: var(--shadow-1);
+    border-radius: var(--radius-6);
+    height: 60px;
+}
+
+.search-button:hover{
+    filter: brightness(0.9);
+}
+
+/*aquí no supe, ayudame, que cuando le des a un botón aparezcan los filtros*/
+.search-filter{
+    display: none;
+}
+
+.search-button-filter{
+    color: var(--white);
+    border: solid 3px var(--white);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: var(--radius-10);
+}
+
 .service {
     text-align: center;
 }
@@ -559,6 +606,21 @@ body.nav-active {
 
 .service-card .card-title {
     margin-block: 16px 10px;
+}
+
+.promo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.promo{
+    color: var(--white);
+    font-weight: 600;
+    background: var(--naranja);
+    width: 100px;
+    border-radius: var(--radius-10);
+    padding: 3px;
+    margin-bottom: 15px;
 }
 
 .card-button {
@@ -633,7 +695,7 @@ body.nav-active {
 
 .accordion-btn ion-icon {
     font-size: 1.5rem;
-    color: var(--blue-crayola);
+    color: var(--azul);
     transition: var(--transition-1);
 }
 
