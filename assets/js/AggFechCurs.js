@@ -1,11 +1,11 @@
 
 let cursoEC = document.getElementById("Info").dataset.curso;
 
-fetch('../assets/js/data.json')
+fetch('../assets/js/fechas.json')
 .then(response => response.json())
 .then(data => {
 
-    courses = data[cursoEC].cursosPresenciales;
+    courses = data[cursoEC];
     let contenedor = document.getElementById("cursoPresencial");
 
     courses.map(curso => {
