@@ -951,6 +951,9 @@ body.nav-active {
 }
 
 @media (max-width: 425px) {
+    .categorias-button .h4, .categorias-button2 .h4{
+        font-size: 1.5rem;
+    }
     .categorias-button, .categorias-button2{
         gap: 5px;
     }
