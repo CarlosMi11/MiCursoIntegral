@@ -14,7 +14,7 @@
     --naranja: #f58f32;
     --white_traslucent: rgba(255, 255, 255, 0.205);
     --white_a70: hsla(0, 0%, 100%, 0.7);
-    --naranjahover: #FF5600;
+    --naranjahover: #ff6e26;
     --lavender-web: hsla(233, 52%, 94%, 1);
     --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
     --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
@@ -22,7 +22,7 @@
     --light-gray: rgb(241, 239, 239);
     --azul-oscuro: #112056;
     --black-coral: hsla(220, 12%, 43%, 1);
-
+    --verdehover: #047D00;
     /**
      * tipografía
      */
@@ -571,11 +571,52 @@ body.nav-active {
     border-radius: var(--radius-10);
 }
 
-.service {
+.categorias-button {
+    background: var(--verde);
+}
+
+.categorias-button2 {
+    background: var(--naranja);
+}
+
+.categorias-button, .categorias-button2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    border-radius: var(--radius-10);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    transition: background 0.2s ease;
+    box-shadow: var(--shadow-1);
+}
+
+
+  
+.categorias-button:hover {
+    background: var(--verdehover); 
+}
+
+.categorias-button2:hover {
+    background: var(--naranjahover);
+}
+
+.categorias-img{
+    width: 115px;
+    object-fit: cover;
+}
+
+.categorias-title{
+    margin: auto;
+}
+
+
+.service, .categorias {
     text-align: center;
 }
 
-.service .section-title {
+.service .section-title, .categorias .section-title {
     margin-block-end: 50px;
 }
 
@@ -879,7 +920,7 @@ body.nav-active {
     }
 
     /* SERVICIOS */
-    .service .section-title {
+    .service .section-title, .categorias .section-title {
         max-width: 30ch;
         margin-inline: auto;
     }
@@ -891,9 +932,27 @@ body.nav-active {
     }
 }
 
+@media (max-width: 767px) {
+    .categorias-img{
+        width: 190px;
+    }
+}
+
 @media (max-width: 991px) {
     .social-list2{
         display: none;
+    }
+}
+
+@media (max-width: 499px) {
+    .categorias-img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px) {
+    .categorias-button, .categorias-button2{
+        gap: 5px;
     }
 }
 
@@ -902,6 +961,10 @@ body.nav-active {
     /* ESTILO REUTILIZADO */
     .container {
         max-width: 960px;
+    }
+
+    .categorias-img{
+        width: 190px;
     }
 
     /* ENCABEZADO */
@@ -995,7 +1058,11 @@ body.nav-active {
 
     /* SERVICIO */
     .service .grid-list {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .categorias .grid-list {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* FOOTER */
