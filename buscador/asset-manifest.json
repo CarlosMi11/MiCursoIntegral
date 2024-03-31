@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MiCursoIntegral/buscador/static/css/main.757958a7.css",
+    "main.js": "/MiCursoIntegral/buscador/static/js/main.bb6849d0.js",
+    "index.html": "/MiCursoIntegral/buscador/index.html",
+    "main.757958a7.css.map": "/MiCursoIntegral/buscador/static/css/main.757958a7.css.map",
+    "main.bb6849d0.js.map": "/MiCursoIntegral/buscador/static/js/main.bb6849d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.757958a7.css",
+    "static/js/main.bb6849d0.js"
+  ]
+}
