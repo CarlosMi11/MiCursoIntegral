@@ -9,7 +9,7 @@ fetch('../assets/js/data.json')
     let contenedor = document.getElementById("cursoPresencial");
 
     courses.map(curso => {
-        contenedor.innerHTML+= `<p>curso ${curso.tipo.toUpperCase()}: ${curso.fecha} en ${curso.ubicacion}</p>`
+        contenedor.innerHTML+= `<p>Curso ${curso.tipo.toUpperCase()}: ${curso.fecha} en ${curso.ubicacion}</p>`
     })
 
   
