@@ -1009,7 +1009,7 @@ body.nav-active {
 
     /* INICIO */
     .home {
-        padding-block-start: calc(var(--section-padding) + 90px);
+        /*padding-block-start: calc(var(--section-padding) + 90px);*/
         text-align: left;
     }
 
