@@ -191,6 +191,10 @@ body.nav-active {
     font-size: 2rem;
 }
 
+.curso-text section p {
+    font-size: 2rem;
+}
+
 .borderradius {
     border-radius: var(--radius-10);
 }
