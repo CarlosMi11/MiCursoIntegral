@@ -722,7 +722,7 @@ body.nav-active {
 }
 
 .contact-button:hover{
-    background-color: var();
+    background-color: var(--naranjahover);
 }
 
 .contact-button img{
