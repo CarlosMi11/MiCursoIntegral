@@ -1005,6 +1005,9 @@ body.nav-active {
     .social-list2{
         display: none;
     }
+    .home a{
+        justify-content: center;
+    }    
 }
 
 @media (max-width: 499px) {
