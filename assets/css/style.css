@@ -1151,3 +1151,6 @@ body.nav-active {
 }
 .home {
   padding-top: 230px;}
+.ayudaReact {
+  --width: 575px; 
+  --height: 550px;}
