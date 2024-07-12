@@ -101,3 +101,13 @@ const initAccordion = function (currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+
+function formEmpresa() {
+    document.getElementById('inscripcion-container').style.display = 'none';
+    document.getElementById('inscripcion-container2').style.display = 'flex';
+}
+
+function formPersona() {
+    document.getElementById('inscripcion-container2').style.display = 'none';
+    document.getElementById('inscripcion-container').style.display = 'flex';
+}
