@@ -922,6 +922,137 @@ body.nav-active {
     font-weight: var(--fw-700);
 }
 
+.home-form {
+    padding-block-start: calc(var(--section-padding) + 70px);
+    padding-top: 150px;
+}
+
+.tipoInscripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+.tipoInscripcion button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--white);
+    font-size: var(--fs-4);
+    padding: 15px;
+    border-radius: 25px 25px 0 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+#persona{
+    background: var(--azul-oscuro);
+}
+
+#empresa{
+    background: var(--azul);
+}
+
+#inscripcion-container2 #persona{
+    background: var(--azul);
+}
+
+#inscripcion-container2 #empresa{
+    background: var(--azul-oscuro);
+}
+
+.tipoInscripcion ion-icon, .button-pago ion-icon{
+    font-size: 25px;
+}
+
+#inscripcion-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscripcion-container2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.inscripcion{
+    background: var(--azul-oscuro);
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 0 0 var(--radius-10) var(--radius-10);
+}
+
+.inscripcion input{
+    margin-bottom: 10px;
+}
+
+.inscripcion label{
+    font-size: var(--fs-5);
+}
+
+.inscripcion-input{
+    background: var(--white);
+    height: 40px;
+    padding: 5px;
+    border-radius: var(--radius-6);
+}
+
+.enviar-form{
+    background: var(--verde);
+    border-radius: var(--radius-6);
+    color: var(--white);
+    padding: 15px;
+    font-size: var(--fs-5);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.cargar-pago{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.button-pago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--azul);
+    border-radius: var(--radius-6);
+    text-align: center;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.documento{
+    display: flex;
+}
+
+.documento-list{
+    background: var(--white);
+    height: 40px;
+    width: 60px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: var(--radius-6);
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1013,6 +1144,11 @@ body.nav-active {
 @media (max-width: 499px) {
     .categorias-img{
         width: 40%;
+    }
+}
+@media (max-width: 359px) {
+    .tipoInscripcion button{
+        font-size: 1.5rem;
     }
 }
 
@@ -1149,8 +1285,10 @@ body.nav-active {
         max-width: 1320px;
     }
 }
-.home {
+
+.home , .home-form {
   padding-top: 230px;}
+
 .ayudaReact {
   --width: 575px; 
   --height: 550px;}
