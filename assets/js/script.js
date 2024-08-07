@@ -103,11 +103,57 @@ const initAccordion = function (currentAccordion) {
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
 
 function formEmpresa() {
-    document.getElementById('inscripcion-container').style.display = 'none';
-    document.getElementById('inscripcion-container2').style.display = 'flex';
+    const empresaElements = document.getElementsByClassName('empresa');
+    const personaElements = document.getElementsByClassName('persona');
+    const persona = document.querySelector("#persona");
+    const empresa = document.querySelector("#empresa");
+    for (let i = 0; i < empresaElements.length; i++) {
+        empresaElements[i].style.display = 'block';
+    }
+    for (let i = 0; i < personaElements.length; i++) {
+        personaElements[i].style.display = 'none';
+    };
+    persona.style.background = 'var(--azul)';
+    empresa.style.background = 'var(--azul-oscuro)';
 }
 
 function formPersona() {
-    document.getElementById('inscripcion-container2').style.display = 'none';
-    document.getElementById('inscripcion-container').style.display = 'flex';
+    const empresaElements = document.getElementsByClassName('empresa');
+    const personaElements = document.getElementsByClassName('persona');
+    const persona = document.querySelector("#persona");
+    const empresa = document.querySelector("#empresa");
+    for (let i = 0; i < empresaElements.length; i++) {
+        empresaElements[i].style.display = 'none';
+    }
+    for (let i = 0; i < personaElements.length; i++) {
+        personaElements[i].style.display = 'block';
+    };
+    empresa.style.background = 'var(--azul)';
+    persona.style.background = 'var(--azul-oscuro)';
 }
+
+const wrapper = document.querySelector(".wrapperp");
+const fileName = document.querySelector(".file-name");
+const defaultBtn = document.querySelector("#default-btn");
+const customBtn = document.querySelector("#custom-btn");
+const img = document.querySelector("#img");
+let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
+function defaultBtnActive(){
+  defaultBtn.click();
+}
+defaultBtn.addEventListener("change", function(){
+  const file = this.files[0];
+  if(file){
+    const reader = new FileReader();
+    reader.onload = function(){
+      const result = reader.result;
+      img.src = result;
+      wrapper.classList.add("active");
+    }
+    reader.readAsDataURL(file);
+  }
+  if(this.value){
+    let valueStore = this.value.match(regExp);
+    fileName.textContent = valueStore;
+  }
+});
