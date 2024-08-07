@@ -123,25 +123,38 @@
                         <div id="inscripcion-container">
                             
                             <div class="tipoInscripcion">
-                                <button id="persona" class="inscripcion-btn"><ion-icon name="person-outline" role="img"></ion-icon>Persona</button>
+                                <button id="persona" onclick="formPersona()" class="inscripcion-btn"><ion-icon name="person-outline" role="img"></ion-icon>Persona</button>
                                 <button id="empresa" onclick="formEmpresa()" class="inscripcion-btn"><ion-icon name="business-outline" role="img"></ion-icon>Empresa</button>
                             </div>
 
                             <form class="inscripcion" action="" method="">
+
+                                <div class="empresa">
+                                    <label for="nombreEmpresa">Nombre de la empresa</label>
+                                    <input class="inscripcion-input" type="text" name="nombreEmpresa" id="nombreEmpresa" required placeholder="Nombre de la empresa">
+                                </div>
+
                                 <label for="nombre">Nombre</label>
                                 <input class="inscripcion-input" type="text" name="nombre" id="nombre" required placeholder="Nombre">
 
                                 <label for="apellido">Apellido</label>
                                 <input class="inscripcion-input" type="text" name="apellido" id="apellido" required placeholder="Apellido">
                                 
-                                <label for="documento">Documento</label>
-                                <div class="documento">
-                                    <input class="documento-list" list="tipoDocumento">
-                                    <datalist id="tipoDocumento">
-                                        <option value="V">
-                                        <option value="E">
-                                    </datalist>
-                                    <input class="inscripcion-input" type="number" name="documento" id="documento" required placeholder="Documento">
+                                <div class="persona">
+                                    <label for="documento">Documento</label>
+                                    <div class="documento">
+                                        <input class="documento-list" list="tipoDocumento" required>
+                                        <datalist id="tipoDocumento">
+                                            <option value="V">
+                                            <option value="E">
+                                        </datalist>
+                                        <input class="inscripcion-input" type="number" name="documento" id="documento" required placeholder="Documento">
+                                    </div>
+                                </div>
+
+                                <div class="empresa">
+                                    <label for="documentoEmpresa">RIF</label>
+                                    <input class="inscripcion-input" type="text" name="documentoEmpresa" id="documentoEmpresa" required placeholder="Documento">
                                 </div>
 
                                 <label for="correo">Correo</label>
@@ -151,79 +164,38 @@
                                 <input class="inscripcion-input" type="number" name="telefono" id="telefono" required placeholder="Teléfono">
 
                                 <label for="curso">Curso</label>
-                                <input class="inscripcion-input" type="text" name="curso" id="curso" required placeholder="Curso">
+                                <input class="curso-list" list="curso" required>
+                                    <datalist id="curso">
+                                        <option value="curso 1">
+                                        <option value="curso 2">
+                                        <option value="curso 3">
+                                    </datalist>
 
                                 <label for="modalidad">Modalidad</label>
                                 <input class="inscripcion-input" list="tipoModalidad">
                                 <datalist id="tipoModalidad">
                                     <option value="Presencial">
                                     <option value="Online">
+                                    <option value="InCompany"></option>
                                 </datalist>
 
                                 <label for="fecha">Fecha</label>
                                 <input  class="inscripcion-input" type="date" name="fecha" id="fecha" required placeholder="Fecha">
                                 
-                                <div class="cargar-pago">
-                                    <label>Pago</label>
-                                    <input type="file" id="pago" name="pago" required>
-                                    <label class="button-pago" for="pago"><ion-icon name="cloud-upload-outline" role="img"></ion-icon>Seleccionar Pago</label>
+                                <div class="containerp">
+                                    <button onclick="defaultBtnActive()" id="custom-btn"><ion-icon name="cloud-upload-outline" role="img"></ion-icon>Seleccionar Pago</button>
+                                    <input id="default-btn" type="file" hidden>
+                                    <div class="wrapperp">
+                                        <div class="file-name">
+                                            File name here
+                                         </div>
+                                        <img id="img" src="" alt="Elige una imagen .jpg o .png">
+                                    </div>
                                 </div>
                                 <input class="enviar-form" type="submit" value="Enviar">
 
                             </form>
                         </div>
-
-
-                        <div id="inscripcion-container2">
-                            
-                            <div class="tipoInscripcion">
-                                <button id="persona" onclick="formPersona()" class="inscripcion-btn"><ion-icon name="person-outline" role="img"></ion-icon>Persona</button>
-                                <button id="empresa" class="inscripcion-btn"><ion-icon name="business-outline" role="img"></ion-icon>Empresa</button>
-                            </div>
-
-                            <form class="inscripcion" action="" method="">
-                                <label for="nombreEmpresa">Nombre de la empresa</label>
-                                <input class="inscripcion-input" type="text" name="nombreEmpresa" id="nombreEmpresa" required placeholder="Nombre de la empresa">
-
-                                <label for="nombreResponsable">Nombre de la persona responsable</label>
-                                <input class="inscripcion-input" type="text" name="nombreResponsable" id="nombreResponsable" required placeholder="Nombre del responsable">
-
-                                <label for="apellidoResponsable">Apellido de la persona responsable</label>
-                                <input class="inscripcion-input" type="text" name="apellidoResponsable" id="apellidoResponsable" required placeholder="Apellido del responsable">
-                                
-                                <label for="documentoEmpresa">RIF</label>
-                                <input class="inscripcion-input" type="text" name="documentoEmpresa" id="documentoEmpresa" required placeholder="Documento">
-
-                                <label for="correoEmpresa">Correo</label>
-                                <input class="inscripcion-input" type="email" name="correoEmpresa" id="correoEmpresa" required placeholder="Correo">
-
-                                <label for="telefonoEmpresa">Teléfono</label>
-                                <input class="inscripcion-input" type="number" name="telefonoEmpresa" id="telefonoEmpresa" required placeholder="Teléfono">
-
-                                <label for="cursoEmpresa">Curso</label>
-                                <input class="inscripcion-input" type="text" name="cursoEmpresa" id="cursoEmpresa" required placeholder="Curso">
-
-                                <label for="modalidadEmpresa">Modalidad</label>
-                                <input class="inscripcion-input" list="tipoModalidadEmpresa">
-                                <datalist id="tipoModalidadEmpresa">
-                                    <option value="InCompany"></option>
-                                    <option value="Presencial">
-                                    <option value="Online">
-                                </datalist>
-
-                                <label for="fechaEmpresa">Fecha</label>
-                                <input  class="inscripcion-input" type="date" name="fechaEmpresa" id="fechaEmpresa" required placeholder="Fecha">
-                                
-                                <div class="cargar-pago">
-                                    <label>Pago</label>
-                                    <input type="file" id="pagoEmpresa" name="pagoEmpresa" required>
-                                    <label class="button-pago" for="pagoEmpresa"><ion-icon name="cloud-upload-outline" role="img"></ion-icon>Seleccionar Pago</label>
-                                </div>
-                                <input class="enviar-form" type="submit" value="Enviar">
-
-                            </form>
-                        </div>
-
 
                     </div>
             </section>
