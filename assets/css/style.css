@@ -956,15 +956,7 @@ body.nav-active {
     background: var(--azul);
 }
 
-#inscripcion-container2 #persona{
-    background: var(--azul);
-}
-
-#inscripcion-container2 #empresa{
-    background: var(--azul-oscuro);
-}
-
-.tipoInscripcion ion-icon, .button-pago ion-icon{
+.tipoInscripcion ion-icon, #custom-btn ion-icon{
     font-size: 25px;
 }
 
@@ -982,6 +974,10 @@ body.nav-active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.empresa{
     display: none;
 }
 
@@ -1008,6 +1004,13 @@ body.nav-active {
     border-radius: var(--radius-6);
 }
 
+.curso-list{
+    background: var(--white);
+    height: 40px;
+    padding: 5px;
+    border-radius: var(--radius-6);
+}
+
 .enviar-form{
     background: var(--verde);
     border-radius: var(--radius-6);
@@ -1019,16 +1022,37 @@ body.nav-active {
     margin-top: 30px;
 }
 
-.cargar-pago{
-    display: flex;
-    flex-direction: column;
-}
-
-input[type="file"]{
+.containerp .wrapperp{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 1px var(--white);
     display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.button-pago{
+.wrapperp.active{
+    display: block;
+}
+
+.wrapperp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapperp .file-name{
+    padding: 10px;
+    background: linear-gradient(135deg,var(--azul) 20%,var(--verde) 80%);
+}
+
+.containerp #custom-btn{
+    margin-top: 30px;
+    width: 100%;
+    color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1038,6 +1062,10 @@ input[type="file"]{
     text-align: center;
     padding: 15px 25px;
     cursor: pointer;
+}
+
+input[type="file"]{
+    display: none;
 }
 
 .documento{
