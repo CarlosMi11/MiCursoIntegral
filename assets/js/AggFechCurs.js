@@ -5,7 +5,7 @@ fetch('../assets/js/cursos.json')
 .then(response => response.json())
 .then(data => {
     console.log(data);
-    courses = data[cursoEC].cursosPresenciales;
+    let courses = data[cursoEC].cursosPresenciales;
     let contenedor = document.getElementById("cursoPresencial");
     console.log(courses);
     courses.fechas.map(curso => {
