@@ -260,10 +260,10 @@
     "links" : "instagram",
     "fechas" : []
   },
-  "Curso Profesional Redes Sociales" : {
-    "nombre" : "redesSociales",
+  "redesSociales" : {
+    "nombre" : "Curso Profesional Redes Sociales",
     "llaves" : ["RedesSociales"],
-    "links" : "Curso Profesional Redes Sociales",
+    "links" : "redesSociales",
     "fechas" : []
   },
   "inversionesCriptomonedas" : {
@@ -411,7 +411,7 @@
     "fechas" : []
   },
   "redaccionCartasMemosCorreos" : {
-    "nombre" : "Curso de Correcta Redacción de Cartas, Memos y Correos Electrónicos",
+    "nombre" : "Redacción de Cartas, Memos y Correos Electrónicos",
     "llaves" : ["DesarrolloPersonal"],
     "links" : "redaccionCartasMemosCorreos",
     "fechas" : []
@@ -447,7 +447,7 @@
     "fechas" : []
   },
   "airesAcondicionados" : {
-    "nombre" : "Principios basicos del funcionamiento de Aires acondicionados y refrigeración",
+    "nombre" : "Basicos del funcionamiento de Aires acondicionados",
     "llaves" : ["OficiosTecnicos"],
     "links" : "airesAcondicionados",
     "fechas" : []
@@ -501,7 +501,7 @@
     "fechas" : []
   },
   "gerenciaOperacionesLeanManagement" : {
-    "nombre" : "",
+    "nombre" : "Gestión Estratégica de la Gerencia de Operaciones - Lean Management",
     "llaves" : ["GestionInventario"],
     "links" : "gerenciaOperacionesLeanManagement",
     "fechas" : []
@@ -518,14 +518,14 @@
     "links" : "gestionComprasAvanzado",
     "fechas" : []
   },
-  "gestionInventario" : {
+  "gestionInventarioAlmacenes" : {
     "nombre" : "Curso de Gestión de Inventarios y Organización de Almacenes",
     "llaves" : ["GestionInventario"],
-    "links" : "gestionInventario",
+    "links" : "gestionInventarioAlmacenes",
     "fechas" : []
   },
   "logisticaDistribucion" : {
-    "nombre" : "Curso de Logística y Distribución de Transporte para la gestión eficiente de la Cadena de Suministros",
+    "nombre" : "Logística y Distribución de Transporte para la Cadena de Suministros",
     "llaves" : ["GestionInventario"],
     "links" : "logisticaDistribucion",
     "fechas" : []
@@ -543,7 +543,7 @@
     "fechas" : []
   },
   "derechosLaboralesLOTT" : {
-    "nombre" : "¿Cómo Calcular derechos, obligaciones, beneficios y prestaciones sociales de los trabajadores?",
+    "nombre" : "Calculo de derechos, obligaciones, beneficios y prestaciones sociales",
     "llaves" : ["LaboralRRHH"],
     "links" : "derechosLaboralesLOTT",
     "fechas" : []
@@ -561,7 +561,7 @@
     "fechas" : []
   },
   "pensionJubilacionDolaresCENCOEX" : {
-    "nombre" : "Cómo Obtener con Éxito la Pensión o Jubilación en Dólares a través de CENCOEX",
+    "nombre" : "Cómo Obtener la Pensión o Jubilación en Dólares a través de CENCOEX",
     "llaves" : ["LaboralRRHH"],
     "links" : "pensionJubilacionDolaresCENCOEX",
     "fechas" : []
