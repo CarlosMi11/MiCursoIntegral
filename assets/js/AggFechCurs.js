@@ -7,7 +7,7 @@ fetch('../assets/js/cursos.json')
 
     courses = data[cursoEC].cursosPresenciales;
     let contenedor = document.getElementById("cursoPresencial");
-
+    console.log(courses);
     courses.fechas.map(curso => {
         contenedor.innerHTML+= `<p>Curso ${curso.tipo.toUpperCase()}: ${curso.fecha} en ${curso.ubicacion}</p>`
     })
