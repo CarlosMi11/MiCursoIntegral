@@ -2,32 +2,49 @@
   "ExcelIntroductorio" : {
       "nombre": "Introducción a Excel",
       "llaves": ["Informatica"],
-      "links" : "ExcelIntroductorio"
+      "links" : "ExcelIntroductorio",
+      "fechas" : []
   },
   "ExcelIntermedio" : {
       "nombre": "Excel Intermedio",
       "llaves": ["Informatica"],
-      "links": "ExcelIntermedio"
+      "links": "ExcelIntermedio",
+      "fechas" : []
   },
   "ExcelAvanzado" : {
       "nombre": "Excel Avanzado",
       "llaves": ["Informatica"],
-      "links": "ExcelAvanzado"
+      "links": "ExcelAvanzado",
+      "fechas" : [
+        {
+          "fecha": "Viernes 26 de Abril del 2024",
+          "ubicacion": "La Castellana, Caracas",
+          "tipo": "sabatino"
+        },
+        {
+          "fecha": "Sábado 20 de Abril del 2024",
+          "ubicacion": "La Castellana, Caracas",
+          "tipo": "semanal"
+        }
+      ]
   },
   "ExcelAvanzadoII" : {
       "nombre": "Excel Avanzado II",
       "llaves": ["Informatica"],
-      "links": "ExcelAvanzadoII"
+      "links": "ExcelAvanzadoII",
+      "fechas" : []
   },
   "TablasDianmicasExcel" : {
       "nombre": "Tablas Dinámicas en Excel",
       "llaves": ["Informatica"],
-      "links": "TablasDinamicasExcel"
+      "links": "TablasDinamicasExcel",
+      "fechas" : []
   },
   "ExcelPowerBI" : {
       "nombre": "Excel y Power BI",
       "llaves": ["Informatica"],
-      "links": "ExcelPowerBI"
+      "links": "ExcelPowerBI",
+      "fechas" : []
   },
   "ExcelFinanciero" : {
       "nombre": "Análisis Financiero con Excel",
@@ -42,136 +59,163 @@
   "PowerPoint" : {
       "nombre": "Introducción a PowerPoint",
       "llaves": ["Informatica"],
-      "links": "PowerPoint"
+      "links": "PowerPoint",
+      "fechas" : []
   },
   "Word" : {
       "nombre": "Introducción a Word",
       "llaves": ["Informatica"],
-      "links": "Word"
+      "links": "Word",
+      "fechas" : []
   },
   "EspecializacionOffice" : {
       "nombre": "Especialización en Paquete Office",
       "llaves": ["Informatica", "Promo"],
-      "links": "EspecializacionOffice"
+      "links": "EspecializacionOffice",
+      "fechas" : []
   },
   "Access" : {
       "nombre": "Introducción a Access",
       "llaves": ["Informatica"],
-      "links": "Access"
+      "links": "Access",
+      "fechas" : []
   },
   "MsProyect" : {
       "nombre": "Introducción a Ms Project",
       "llaves": ["Informatica"],
-      "links": "MsProyect"
+      "links": "MsProyect",
+      "fechas" : []
   },
   "BasicoComputador" : {
       "nombre": "Fundamentos de Computación Windows",
       "llaves": ["Informatica"],
-      "links": "BasicoComputador"
+      "links": "BasicoComputador",
+      "fechas" : []
   },
   "Joomla" : {
       "nombre": "Introducción a Joomla",
       "llaves": ["Informatica"],
-      "links": "Joomla"
+      "links": "Joomla",
+      "fechas" : []
   },
   "Visio" : {
       "nombre": "Introducción a Visio",
       "llaves": ["Informatica"],
-      "links": "Visio"
+      "links": "Visio",
+      "fechas" : []
   },
   "Autocad2D" : {
       "nombre": "AutoCAD 2D",
       "llaves": ["Informatica"],
-      "links": "AutoCad2D"
+      "links": "AutoCad2D",
+      "fechas" : []
   },
   "Autocad3D" : {
       "nombre": "AutoCAD 3D",
       "llaves": ["Informatica"],
-      "links": "AutoCad3D"
+      "links": "AutoCad3D",
+      "fechas" : []
   },
   "MsOutlook" : {
       "nombre": "Introducción a Ms Outlook",
       "llaves": ["Informatica"],
-      "links": "MsOutlook"
+      "links": "MsOutlook",
+      "fechas" : []
   },
   "Prezi" : {
       "nombre": "Introducción a Prezi",
       "llaves": ["Informatica"],
-      "links": "Prezi"
+      "links": "Prezi",
+      "fechas" : []
   },
   "MantenimientoPC" : {
       "nombre": "Mantenimiento de PC",
       "llaves": ["Informatica"],
-      "links": "MantenimientoPC"
+      "links": "MantenimientoPC",
+      "fechas" : []
   },
   "CreacionEmpresas" : {
     "nombre" : "Creacion de empresas",
     "llaves" : ["ComercioInternacional"],
-    "links" : "CreacionEmpresas"
+    "links" : "CreacionEmpresas",
+    "fechas" : []
   },
   "GestionCostos" : {
     "nombre" : "Gestion de Costos",
     "llaves" : ["ComercioInternacional"],
-    "links" : "GestionCostos"
+    "links" : "GestionCostos",
+    "fechas" : []
   },
   "IlicitosAduaneros" : {
     "nombre" : "Ilicitos Aduaneros",
     "llaves" : ["ComercioInternacional"],
-    "links" : "IlicitosAduaneros"
+    "links" : "IlicitosAduaneros",
+    "fechas" : []
   },
   "ImportacionVenezuela" : {
     "nombre" : "Introduccion a la Importacion en Venezuela",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ImportacionVenezuela"
+    "links" : "ImportacionVenezuela",
+    "fechas" : []
   },
   "ImportacionVenezuelaII" : {
     "nombre" : "Como hacer negocios e importaciones en Venezuela",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ImportacionVenezuelaII"
+    "links" : "ImportacionVenezuelaII",
+    "fechas" : []
   },
   "ImportacionesChina" : {
     "nombre" : "Como hacer Negocios e Importaciones con china",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ImportacionesChina"
+    "links" : "ImportacionesChina",
+    "fechas" : []
   },
   "ImportacionVehiculos" : {
     "nombre" : "Procedimientos de Importación de Vehículos",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ImportacionVehiculos"
+    "links" : "ImportacionVehiculos",
+    "fechas" : []
   },
   "ImportarAladi" : {
     "nombre" : "Curso Como Importar con Sucre y Aladi",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ImportarAladi"
+    "links" : "ImportarAladi",
+    "fechas" : []
   },
   "LegislacionAduanera" : {
     "nombre" : "Legislacion Aduanera",
     "llaves" : ["ComercioInternacional"],
-    "links" : "LegislacionAduanera"
+    "links" : "LegislacionAduanera",
+    "fechas" : []
   },
   "NoProduccionNacional" : {
     "nombre" : "Certificados de no produccion nacional",
     "llaves" : ["ComercioInternacional"],
-    "links" : "NoProduccionNacional"
+    "links" : "NoProduccionNacional",
+    "fechas" : []
   },
   "LeyAduanas" : {
     "nombre" : "Modificaciones de la Nueva ley de aduanas 2020",
     "llaves" : ["ComercioInternacional"],
-    "links" : "LeyAduanas"
+    "links" : "LeyAduanas",
+    "fechas" : []
   },
   "ProcediientosAduaneros" : {
     "nombre" : "Tramites y Procedimientos Aduaneros",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ProcediientosAduaneros"
+    "links" : "ProcediientosAduaneros",
+    "fechas" : []
   },
   "ValoracionAduanera" : {
     "nombre" : "Metodos de valoracion aduanera",
     "llaves" : ["ComercioInternacional"],
-    "links" : "ValoracionAduanera"
+    "links" : "ValoracionAduanera",
+    "fechas" : []
   },
   "arancelAduana" : {
     "nombre" : "Arancel de Aduanas y Tecnicas de Clasificacion",
     "llaves" : ["ComercioInternacional"],
-    "links" : "arancelAduana"
+    "links" : "arancelAduana",
+    "fechas" : []
   }
 }
