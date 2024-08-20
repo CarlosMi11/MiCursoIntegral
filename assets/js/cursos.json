@@ -217,5 +217,395 @@
     "llaves" : ["ComercioInternacional"],
     "links" : "arancelAduana",
     "fechas" : []
+  },
+  "accidentesLaborales" : {
+    "nombre" : "Prevención e Investigación de Accidentes Laborales",
+    "llaves" : ["SeguridadIndustrial"],
+    "links" : "accidentesLaborales",
+    "fechas" : []
+  },
+  "inspectorLOPCYMAC" : {
+    "nombre" : "Supervisión de Higiene y Seguridad Industrial - Incluye LOPCYMAT",
+    "llaves" : ["SeguridadIndustrial"],
+    "links" : "inspectorLOPCYMAC",
+    "fechas" : []
+  },
+  "manejoSustancias" : {
+    "nombre" : "Manejo de Sustancias, Materiales y Desechos Peligrosos",
+    "llaves" : ["SeguridadIndustrial"],
+    "links" : "manejoSustancias",
+    "fechas" : []
+  },
+  "saludOcupacional" : {
+    "nombre" : "Salud Ocupacional e Higiene Ocupacional",
+    "llaves" : ["SeguridadIndustrial"],
+    "links" : "saludOcupacional",
+    "fechas" : []
+  },
+  "DisenoGráfico" : {
+    "nombre" : "Diseño Gráfico para Redes Sociales",
+    "llaves" : ["RedesSociales"],
+    "links" : "DisenoGráfico",
+    "fechas" : []
+  },
+  "gestionContenidosRedesSociales" : {
+    "nombre" : "Gestion de Contenidos para Redes Sociales",
+    "llaves" : ["RedesSociales"],
+    "links" : "gestionContenidosRedesSociales",
+    "fechas" : []
+  },
+  "instagram" : {
+    "nombre" : "Curso Profesional de Instagram",
+    "llaves" : ["RedesSociales"],
+    "links" : "instagram",
+    "fechas" : []
+  },
+  "Curso Profesional Redes Sociales" : {
+    "nombre" : "redesSociales",
+    "llaves" : ["RedesSociales"],
+    "links" : "Curso Profesional Redes Sociales",
+    "fechas" : []
+  },
+  "inversionesCriptomonedas" : {
+    "nombre" : "¿Cómo hacer inversiones en criptomonedas?",
+    "llaves" : ["Criptomonedas"],
+    "links" : "inversionesCriptomonedas",
+    "fechas" : []
+  },
+  "minarCriptomonedas" : {
+    "nombre" : "¿Cómo hacer minería en criptomonedas?",
+    "llaves" : ["Criptomonedas"],
+    "links" : "minarCriptomonedas",
+    "fechas" : []
+  },
+  "tradingAvanzado" : {
+    "nombre" : "Técnicas avanzadas en trading e Indicadores",
+    "llaves" : ["Criptomonedas"],
+    "links" : "tradingAvanzado",
+    "fechas" : []
+  },
+  "tradingCriptomonedas" : {
+    "nombre" : "¿Cómo hacer trading en criptomonedas?",
+    "llaves" : ["Criptomonedas"],
+    "links" : "tradingCriptomonedas",
+    "fechas" : []
+  },
+  "herramientasValoracionInmuebles" : {
+    "nombre" : "Herramientas de Estadística para Valorar Bienes Inmuebles Urbanos",
+    "llaves" : ["BienesRaices"],
+    "links" : "herramientasValoracionInmuebles",
+    "fechas" : []
+  },
+  "valoracionInmueblesUrbanos" : {
+    "nombre" : "¿Como Valorar Bienes Inmuebles Urbanos?",
+    "llaves" : ["BienesRaices"],
+    "links" : "valoracionInmueblesUrbanos",
+    "fechas" : []
+  },
+  "administracionTiempo" : {
+    "nombre" : "Curso de Administración del Tiempo",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "administracionTiempo",
+    "fechas" : []
+  },
+  "atencionCliente" : {
+    "nombre" : "Curso de Excelencia en Atención al Cliente",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "atencionCliente",
+    "fechas" : []
+  },
+  "comunicacionEfectiva" : {
+    "nombre" : "Curso de Técnicas de Comunicación Efectiva",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "comunicacionEfectiva",
+    "fechas" : []
+  },
+  "etiquetaProtocoloEmpresa" : {
+    "nombre" : "Curso de Etiqueta y Protocolo en la Empresa",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "etiquetaProtocoloEmpresa",
+    "fechas" : []
+  },
+  "formacionFacilitadores" : {
+    "nombre" : "Curso de Formación de Facilitadores",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "formacionFacilitadores",
+    "fechas" : []
+  },
+  "gerenciaCoaching" : {
+    "nombre" : "Curso de Gerencia en Coaching",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "gerenciaCoaching",
+    "fechas" : []
+  },
+  "inteligenciaManejoEmocional" : {
+    "nombre" : "Curso de Inteligencia y Manejo Emocional",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "inteligenciaManejoEmocional",
+    "fechas" : []
+  },
+  "lenguajeInfluenciaPositiva" : {
+    "nombre" : "Curso de Lenguaje de Influencia Positiva",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "lenguajeInfluenciaPositiva",
+    "fechas" : []
+  },
+  "liderazgoPlanificacion" : {
+    "nombre" : "Curso de Liderazgo y Planificación",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "liderazgoPlanificacion",
+    "fechas" : []
+  },
+  "manejoConflictos" : {
+    "nombre" : "Curso de Manejo de Conflictos",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "manejoConflictos",
+    "fechas" : []
+  },
+  "manejoEstresLaboral" : {
+    "nombre" : "Curso de Manejo y Control de Estrés Laboral",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "manejoEstresLaboral",
+    "fechas" : []
+  },
+  "mejorarAmbienteLaboral" : {
+    "nombre" : "Estrategias para Mejorar el Ambiente Laboral en las Organizaciones",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "mejorarAmbienteLaboral",
+    "fechas" : []
+  },
+  "motivacionLogro" : {
+    "nombre" : "Curso de Motivación al Logro",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "motivacionLogro",
+    "fechas" : []
+  },
+  "negociacion" : {
+    "nombre" : "Curso de Negociación",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "negociacion",
+    "fechas" : []
+  },
+  "oratoria" : {
+    "nombre" : "Curso de Oratoria y Técnicas de Presentación",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "oratoria",
+    "fechas" : []
+  },
+  "ortografia" : {
+    "nombre" : "Curso de Ortografía",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "ortografia",
+    "fechas" : []
+  },
+  "principiosEticosFuncionPublica" : {
+    "nombre" : "Curso de Principios Éticos de la Función Pública",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "principiosEticosFuncionPublica",
+    "fechas" : []
+  },
+  "redaccion" : {
+    "nombre" : "Curso de Redacción",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "redaccion",
+    "fechas" : []
+  },
+  "redaccionCartasMemosCorreos" : {
+    "nombre" : "Curso de Correcta Redacción de Cartas, Memos y Correos Electrónicos",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "redaccionCartasMemosCorreos",
+    "fechas" : []
+  },
+  "redaccionDocumentosCiviles" : {
+    "nombre" : "Curso de Redacción de Documentos Civiles (jurídicos)",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "redaccionDocumentosCiviles",
+    "fechas" : []
+  },
+  "redaccionInformesTecnicos" : {
+    "nombre" : "Curso de Redacción de Informes Técnicos",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "redaccionInformesTecnicos",
+    "fechas" : []
+  },
+  "supervisionGerencia" : {
+    "nombre" : "Curso de Supervisión y Gerencia",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "supervisionGerencia",
+    "fechas" : []
+  },
+  "trabajoEquipo" : {
+    "nombre" : "Curso de Trabajo en Equipo",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "trabajoEquipo",
+    "fechas" : []
+  },
+  "ventasPNL" : {
+    "nombre" : "Curso de Ventas con PNL",
+    "llaves" : ["DesarrolloPersonal"],
+    "links" : "ventasPNL",
+    "fechas" : []
+  },
+  "airesAcondicionados" : {
+    "nombre" : "Principios basicos del funcionamiento de Aires acondicionados y refrigeración",
+    "llaves" : ["OficiosTecnicos"],
+    "links" : "airesAcondicionados",
+    "fechas" : []
+  },
+  "operacionMontacargas" : {
+    "nombre" : "Uso y Certificación de operación de Montacargas",
+    "llaves" : ["OficiosTecnicos"],
+    "links" : "operacionMontacargas",
+    "fechas" : []
+  },
+  "tecnicasMantenimientoAiresAcondicionados" : {
+    "nombre" : "Tecnicas profesionales de servicio y mantenimiento de aires acondicionados",
+    "llaves" : ["OficiosTecnicos"],
+    "links" : "tecnicasMantenimientoAiresAcondicionados",
+    "fechas" : []
+  },
+  "tecnicasMantenimientoReparacionLaptopsPC" : {
+    "nombre" : "Tecnicas de mantenimiento y reparacion de laptops y PC",
+    "llaves" : ["OficiosTecnicos"],
+    "links" : "tecnicasMantenimientoReparacionLaptopsPC",
+    "fechas" : []
+  },
+  "controlAdministracionBienesPublicos" : {
+    "nombre" : "Curso de Registro, Control y Administración de Bienes Públicos",
+    "llaves" : ["GestionInventario"],
+    "links" : "controlAdministracionBienesPublicos",
+    "fechas" : []
+  },
+  "controlInventariosExcel" : {
+    "nombre" : "Curso de Control de Inventarios y Almacén con Excel",
+    "llaves" : ["GestionInventario"],
+    "links" : "controlInventariosExcel",
+    "fechas" : []
+  },
+  "especializacionGestionAlmacenes" : {
+    "nombre" : "Curso de Especialización en la Gestión de Almacenes",
+    "llaves" : ["GestionInventario"],
+    "links" : "especializacionGestionAlmacenes",
+    "fechas" : []
+  },
+  "especializacionGestionInventarios" : {
+    "nombre" : "Curso de Especialización en la Gestión de Inventarios",
+    "llaves" : ["GestionInventario"],
+    "links" : "especializacionGestionInventarios",
+    "fechas" : []
+  },
+  "evaluacionHomologacionProveedores" : {
+    "nombre" : "Curso de Evaluación y Homologación de Proveedores",
+    "llaves" : ["GestionInventario"],
+    "links" : "evaluacionHomologacionProveedores",
+    "fechas" : []
+  },
+  "gerenciaOperacionesLeanManagement" : {
+    "nombre" : "",
+    "llaves" : ["GestionInventario"],
+    "links" : "gerenciaOperacionesLeanManagement",
+    "fechas" : []
+  },
+  "gestionCompras" : {
+    "nombre" : "Curso de Gestión Integral de Compras",
+    "llaves" : ["GestionInventario"],
+    "links" : "gestionCompras",
+    "fechas" : []
+  },
+  "gestionComprasAvanzado" : {
+    "nombre" : "Curso de Compras Avanzadas",
+    "llaves" : ["GestionInventario"],
+    "links" : "gestionComprasAvanzado",
+    "fechas" : []
+  },
+  "gestionInventario" : {
+    "nombre" : "Curso de Gestión de Inventarios y Organización de Almacenes",
+    "llaves" : ["GestionInventario"],
+    "links" : "gestionInventario",
+    "fechas" : []
+  },
+  "logisticaDistribucion" : {
+    "nombre" : "Curso de Logística y Distribución de Transporte para la gestión eficiente de la Cadena de Suministros",
+    "llaves" : ["GestionInventario"],
+    "links" : "logisticaDistribucion",
+    "fechas" : []
+  },
+  "tecnicasNegociacionCompras" : {
+    "nombre" : "Curso de Técnicas de Negociación en Compras",
+    "llaves" : ["GestionInventario"],
+    "links" : "tecnicasNegociacionCompras",
+    "fechas" : []
+  },
+  "tomaFisicaInventarios" : {
+    "nombre" : "Curso de Toma Física de Inventarios (conteo de mercancía)",
+    "llaves" : ["GestionInventario"],
+    "links" : "tomaFisicaInventarios",
+    "fechas" : []
+  },
+  "derechosLaboralesLOTT" : {
+    "nombre" : "¿Cómo Calcular derechos, obligaciones, beneficios y prestaciones sociales de los trabajadores?",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "derechosLaboralesLOTT",
+    "fechas" : []
+  },
+  "MINTRA" : {
+    "nombre" : "Cómo Prepararse para la Inspección del Ministerio del Trabajo y Seguridad Social",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "MINTRA",
+    "fechas" : []
+  },
+  "nominaLOTT" : {
+    "nombre" : "¿Cómo Preparar y Calcular la Nomina de la Empresa?",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "nominaLOTT",
+    "fechas" : []
+  },
+  "pensionJubilacionDolaresCENCOEX" : {
+    "nombre" : "Cómo Obtener con Éxito la Pensión o Jubilación en Dólares a través de CENCOEX",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "pensionJubilacionDolaresCENCOEX",
+    "fechas" : []
+  },
+  "planesAdiestramiento" : {
+    "nombre" : "Control y Evaluación de Planes de Adiestramiento",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "planesAdiestramiento",
+    "fechas" : []
+  },
+  "RRHH" : {
+    "nombre" : "Gestión Integral de RRHH",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "RRHH",
+    "fechas" : []
+  },
+  "RRHHCompetencias" : {
+    "nombre" : "Reclutamiento y Selección por Competencias",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "RRHHCompetencias",
+    "fechas" : []
+  },
+  "salarioDivisas" : {
+    "nombre" : "Estrategias y Plan de Salarios para Pago en Divisas a los Trabajadores",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "salarioDivisas",
+    "fechas" : []
+  },
+  "tecnicasArchivosRRHH" : {
+    "nombre" : "Gestión Documental de Expedientes de RRHH",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "tecnicasArchivosRRHH",
+    "fechas" : []
+  },
+  "tiunaIVSS" : {
+    "nombre" : "Curso de Tiuna y de Seguro Social Obligatorio",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "tiunaIVSS",
+    "fechas" : []
+  },
+  "valoracionCargos" : {
+    "nombre" : "Descripción y Valoración de Cargos",
+    "llaves" : ["LaboralRRHH"],
+    "links" : "valoracionCargos",
+    "fechas" : []
   }
 }
