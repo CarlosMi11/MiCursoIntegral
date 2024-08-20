@@ -1,10 +1,10 @@
 
 let cursoEC = document.getElementById("Info").dataset.curso;
-
+console.log(cursoEC);
 fetch('../assets/js/cursos.json')
 .then(response => response.json())
 .then(data => {
-
+    console.log(data);
     courses = data[cursoEC].cursosPresenciales;
     let contenedor = document.getElementById("cursoPresencial");
     console.log(courses);
