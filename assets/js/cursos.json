@@ -607,5 +607,125 @@
     "llaves" : ["LaboralRRHH"],
     "links" : "valoracionCargos",
     "fechas" : []
+  },
+  "ajusteInflacionFiscal" : {
+    "nombre" : "Ajuste por Inflación Fiscal",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "ajusteInflacionFiscal",
+    "fechas" : []
+  },
+  "contribuyentesEspeciales" : {
+    "nombre" : "Cómo cumplir con los deberes formales de los contribuyentes especiales",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "contribuyentesEspeciales",
+    "fechas" : []
+  },
+  "EstadosFinancierosVenNifPyme" : {
+    "nombre" : "Elaboración de Estados Financieros con VEN NIF-PYME",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "EstadosFinancierosVenNifPyme",
+    "fechas" : []
+  },
+  "IGTFNormativaFacturacion" : {
+    "nombre" : "IGTF, Facturación en Divisas y Contabilidad en Petro",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "IGTFNormativaFacturacion",
+    "fechas" : []
+  },
+  "impuestoGanancias" : {
+    "nombre" : "Impuesto a las Ganancias: Implicaciones Fiscales",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "impuestoGanancias",
+    "fechas" : []
+  },
+  "impuestoGrandesPatrimonios" : {
+    "nombre" : "Impuestos a los Grandes Patrimonios",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "impuestoGrandesPatrimonios",
+    "fechas" : []
+  },
+  "impuestosDiferidosNiifPymes" : {
+    "nombre" : "Impuestos Diferidos en NIIF para PYMES",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "impuestosDiferidosNiifPymes",
+    "fechas" : []
+  },
+  "libroComprasVentasIVA" : {
+    "nombre" : "¿Cómo llevar correctamente el libro de compras y ventas de IVA?",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "libroComprasVentasIVA",
+    "fechas" : []
+  },
+  "normativaDeclaracionISLR" : {
+    "nombre" : "Normativa, Preparación y Declaración del ISLR",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "normativaDeclaracionISLR",
+    "fechas" : []
+  },
+  "normativaDeclaracionIVA" : {
+    "nombre" : "Normativa, Preparación y Declaración del IVA",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "normativaDeclaracionIVA",
+    "fechas" : []
+  },
+  "normativaFacturacionProvidencia071" : {
+    "nombre" : "Normativa Facturación Providencia 071",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "normativaFacturacionProvidencia071",
+    "fechas" : []
+  },
+  "planificacionFiscalIslr" : {
+    "nombre" : "Planificación Fiscal en Materia de ISLR",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "planificacionFiscalIslr",
+    "fechas" : []
+  },
+  "preciosTransferencia" : {
+    "nombre" : "Precios de Transferencia",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "preciosTransferencia",
+    "fechas" : []
+  },
+  "preparacionImpuestosMunicipales" : {
+    "nombre" : "Normativa y Preparación de Impuestos Municipales",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "preparacionImpuestosMunicipales",
+    "fechas" : []
+  },
+  "recuperacionIVA" : {
+    "nombre" : "Recuperación de IVA",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "recuperacionIVA",
+    "fechas" : []
+  },
+  "reexpresionEstadosFinancierosVenNifPymes" : {
+    "nombre" : "Reexpresión de Estados Financieros con VEN NIF PYMES",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "reexpresionEstadosFinancierosVenNifPymes",
+    "fechas" : []
+  },
+  "reformaTributaria2018" : {
+    "nombre" : "Reforma Tributaria 2018",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "reformaTributaria2018",
+    "fechas" : []
+  },
+  "retencionesISLR" : {
+    "nombre" : "Retenciones en materia de Impuesto sobre la Renta",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "retencionesISLR",
+    "fechas" : []
+  },
+  "retencionesIVA" : {
+    "nombre" : "Retenciones en materia de I.V.A.",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "retencionesIVA",
+    "fechas" : []
+  },
+  "retencionesIVAEntesPublicos" : {
+    "nombre" : "Retenciones en materia de I.V.A. para Entes Públicos, Estados y Municipios",
+    "llaves" : ["FormacionImpuestos"],
+    "links" : "retencionesIVAEntesPublicos",
+    "fechas" : []
   }
 }
