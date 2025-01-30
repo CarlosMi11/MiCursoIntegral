@@ -682,6 +682,7 @@ body.nav-active {
     padding: 40px;
     box-shadow: var(--shadow-1);
     border-radius: var(--radius-8);
+    height: 450px;
 }
 
 .service-card .card-icon {
